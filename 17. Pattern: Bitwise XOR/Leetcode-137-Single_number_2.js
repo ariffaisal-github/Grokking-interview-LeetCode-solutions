@@ -1,7 +1,4 @@
-/**
- * @param {number[]} nums
- * @return {number}
- */
+
 var singleNumber = function (nums) {
     let ans =0 ;
     for (let bitIdx = 0; bitIdx < 32; bitIdx++) {
